@@ -48,7 +48,10 @@ import objectdetection from "./ObjectDetection.png";
 import sociopedia from "./Sociopedia.png";
 import snapshotai from "./snapshotAI.png";
 
+import profile from "./profile.png";
+
 export {
+  profile,
   firebase,
   dart,
   flutter,

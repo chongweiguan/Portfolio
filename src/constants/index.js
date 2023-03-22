@@ -181,7 +181,7 @@ import {
       designation: "Manager",
       company: "Toppan Ecquaria",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
-      link: "https://google.com/"
+      link: "https://drive.google.com/file/d/157LBlB-nspHjl1SAnjjlwQrIRXQve9T7/view?usp=sharing"
     },
     {
       testimonial:
@@ -190,7 +190,7 @@ import {
       designation: "Senior Manager",
       company: "National University of Singapore",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
-      link: "https://google.com/"
+      link: "https://drive.google.com/file/d/1qwhZ5lmPOmi7MHwE2OgSJs3qv7RnEBrs/view?usp=sharing"
       
     },
     {
@@ -200,7 +200,7 @@ import {
       designation: "Sprints Coach",
       company: "Wings Athletics",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
-      link: "https://google.com/"
+      link: "https://drive.google.com/file/d/114o7yw_vxkNAWYx0QSJXAqgFAM5JsKTd/view?usp=sharing"
     },
   ];
   
@@ -228,7 +228,7 @@ import {
         },
       ],
       image: snapshotai,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/chongweiguan/SnapshotAI",
     },
     {
       name: "Sociopedia",
@@ -253,7 +253,7 @@ import {
         },
       ],
       image: sociopedia,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/chongweiguan/Sociopedia",
     },
     {
       name: "Object Detection Web Application",
@@ -270,7 +270,7 @@ import {
         },
       ],
       image: objectdetection,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/chongweiguan/Object-Detection-Web-App",
     },
     {
       name: "Wings Education",
@@ -291,7 +291,7 @@ import {
         },
       ],
       image: wingsed,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/chongweiguan/Wings-Education",
     },
     {
       name: "EzOrder",
@@ -312,7 +312,7 @@ import {
         },
       ],
       image: ezorder,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/chongweiguan/EzOrder-Bot",
     },
     {
       name: "Trackr",
@@ -329,7 +329,7 @@ import {
         },
       ],
       image: trackr,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/chongweiguan/tp",
     },
   ];
   
