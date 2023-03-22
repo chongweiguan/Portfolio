@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
+import { github, linkicon } from '../assets';
 import { SectionWrapper } from '../hoc'
 import { fadeIn, textVariant } from '../utils/motion'
 import { testimonials } from '../constants'
@@ -12,12 +13,23 @@ const FeedbackCard = ({
   designation,
   company,
   image,
+  link,
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+    className='bg-[#013A3A] p-10 rounded-3xl xs:w-[320px] w-full'
   >
-    <p className='text-white font-black text-[48px]'>"</p>
+    <div className="relative w-full">
+      <p className='text-white font-black text-[48px]'>"</p>
+      <div className="absolute inset-0 flex justify-end card-img_hover">
+        <div
+          onClick={() => window.open(link, "_blank")}
+          className=" w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+        >
+          <img src={linkicon} alt="github" className='w-8/12 object-contain'/>
+        </div>
+      </div>
+    </div>
     <div className='mt-1'>
       <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
       <div className='mt-7 flex justify-between items-center gap-1'>
@@ -29,11 +41,6 @@ const FeedbackCard = ({
             {designation} of {company}
           </p>
         </div>
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
       </div>
     </div>
   </motion.div>
@@ -41,9 +48,9 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
+    <div className={`mt-12 bg-[#014646] rounded-[20px]`}>
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+        className={`bg-[#024B4B] rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>

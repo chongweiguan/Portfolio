@@ -4,25 +4,33 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
     redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    wingsed,
+    ezorder,
+    trackr,
+    objectdetection,
+    sociopedia,
+    snapshotai,
+    aia,
+    eusoff,
+    toppan,
+    virtum,
+    firebase,
+    dart,
+    flutter,
+    java,
+    tensorflow,
+    python,
+    express,
   } from "../assets";
   
   export const navLinks = [
@@ -69,24 +77,16 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
+      name: "Javascript",
       icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Express JS",
+      icon: express,
     },
     {
       name: "Node JS",
@@ -97,74 +97,78 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "git",
-      icon: git,
+      name: "TensorFlow",
+      icon: tensorflow,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Flutter",
+      icon: flutter,
+    },
+    {
+      name: "Dart",
+      icon: dart,
+    },
+    {
+      name: "Firebase",
+      icon: firebase,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Business Development Executive",
+      company_name: "AIA Singapore",
+      icon: aia,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2021 - July 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Coordinated meetings with over 100 companies to discuss potential marketing and business opportunities.",
+        "Conducted screening interviews with 15 candidates and successfully onboarded 3 financial consultants.",
+        "Spearheaded a business development collaboration with Walch and Kai Advisory, leading marketing initiatives that generated over 500 leads within the first 2 weeks.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full Stack Developer",
+      company_name: "Eusoff Hall Hackers",
+      icon: eusoff,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "August 2021 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Proficient in developing and maintaining web applications and telegram bots using React.js and related technologies.",
+        "Collaborated with a team of 3 to develop LaundroBot, a bot that allowed residents to see real-time availability on washing machines through a telegram bot",
+        "Contributed to the development of the Eusoff Hall's Jersey Bidding Website as part of a team of 12, enabling Eusoff Hall residents to bid for their jersey numbers for the highly anticipated annual Inter-Hall Games"
+      ],
+    },
+    {
+      title: "Co-founder",
+      company_name: "Virtum",
+      icon: virtum,
+      iconBg: "#383E56",
+      date: "November 2021 - Present",
+      points: [
+        "Collaborated with a team of three friends to establish a small business venture utilizing UV printing technology to personalize PC backplates for customers.",
+        "Spearheaded business development efforts, proactively reaching out to potential partners and successfully facilitating productive discussions to explore mutually beneficial collaborations.",
+        "Acquired proficiency in Photoshop, and trained in the operation of the Artis 3000U A3+ LED UV Printer, allowing me to personalize and print on backplates."
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Toppan Ecquaria",
+      icon: toppan,
+      iconBg: "#E6DEDD",
+      date: "October 2022 - January 2023",
+      points: [
+        "Collaborated with a team of 13 software engineers and analysts to engineer the central communication system in ICA's 103-million-dollar Documentation Management System (iSMART).",
+        "Developed and implemented responsive and functional web application, enabling ICA officers to efficiently locate and access classified documents such as Passports and Identity Cards.",
+        "Build and maintain test automation system using Java scripting for continuous integration and constant quality checking."
       ],
     },
   ];
@@ -172,92 +176,159 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Demonstrates a selfless and generous attitude, always willing to lend a helping hand and take on a high workload when required.",
+      name: "Jessica Lin",
+      designation: "Manager",
+      company: "Toppan Ecquaria",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
+      link: "https://google.com/"
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I can confidently say that he is an exceptional student athlete with a rare combination of talent, drive, and character.",
+      name: "Ng Chee Hong",
+      designation: "Senior Manager",
+      company: "National University of Singapore",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
+      link: "https://google.com/"
+      
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "He consistently demonstrated initiative by setting clear goals for the team and effectively delivering on his promises.",
+      name: "Melvin Tan",
+      designation: "Sprints Coach",
+      company: "Wings Athletics",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
+      link: "https://google.com/"
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Snapshot AI",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Snapshot AI is a web application that utilizes the OpenAI API to generate stunning, AI-generated images from user prompts. Users can also share their AI generated images with the community",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "node",
+          color: "purple-text-gradient",
+        },
       ],
-      image: carrent,
+      image: snapshotai,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Sociopedia",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Sociopedia is a social media web application that allows users to share their thoughts and pictures with the community. Users can interact and connect with friends by liking and commenting on their content.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "express",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
+        {
+          name: "node",
+          color: "purple-text-gradient",
+        },
       ],
-      image: jobit,
+      image: sociopedia,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Object Detection Web Application",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This simple web application detects objects that are on your camera like cellphone, water bottles, a mouse among others",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tensorflow",
+          color: "green-text-gradient",
+        },
+      ],
+      image: objectdetection,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Wings Education",
+      description:
+        "Wings is an all-in-one Tutor-Student networking application that allows Tutors to connect with potential students and help them in their education journey.",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "dart",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: wingsed,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "EzOrder",
+      description:
+        "EzOrder is a Telegram bot that makes the process of collating orders and tracking outstanding payments cleaner and a more pleasant experience for all telegram users.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "pythonTelegramAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ezorder,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trackr",
+      description:
+        "Trackr is a desktop application designed for small business ownders that helps them manage supplier contact details, orders and tasks.",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javafx",
+          color: "green-text-gradient",
+        },
+      ],
+      image: trackr,
       source_code_link: "https://github.com/",
     },
   ];

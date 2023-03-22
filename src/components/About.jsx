@@ -19,9 +19,9 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450
           }}
-          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+          className="bg-[#024B4B] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain"/>
+          <img src={icon} alt='{title}' className="w-16 h-16 object-contain"/>
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
         </div>
       </motion.div>
@@ -39,9 +39,9 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("","",0.1,1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
       >
-        I am a skilled software developer with experience in JavaScript, Java and python, and expertise in frameworks like React, Node.js, Express.js among others. I am passionate about making a positive impact through problem-solving and technological innovation. Always looking to learn and putting my skills to the test.
+        I am a skilled software developer who possess a diverse skill set with a focus on JavaScript, Java, and Python programming languages. I am proficient in working with frameworks like React.js, Node.js, Express.js among others. My passion lies in leveraging technology to solve complex problems and create innovative solutions that make a positive impact. In addition to my professional skills, I am also a national track and field athlete. I have proudly represented Singapore in multiple international competitions, which has honed my skills in teamwork, discipline, and leadership. I am also an entrepreneur and have a running business
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
