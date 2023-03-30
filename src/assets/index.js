@@ -37,6 +37,7 @@ import aia from "./company/aia.png";
 import eusoff from "./company/eusoff.png";
 import toppan from "./company/toppan.png";
 import virtum from "./company/virtum.png";
+import azendian from "./company/azendian.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -51,6 +52,7 @@ import snapshotai from "./snapshotAI.png";
 import profile from "./profile.png";
 
 export {
+  azendian,
   profile,
   firebase,
   dart,

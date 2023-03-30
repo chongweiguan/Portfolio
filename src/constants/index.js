@@ -7,13 +7,8 @@ import {
     html,
     css,
     reactjs,
-    redux,
     nodejs,
     mongodb,
-    git,
-    figma,
-    docker,
-    threejs,
     wingsed,
     ezorder,
     trackr,
@@ -31,6 +26,7 @@ import {
     tensorflow,
     python,
     express,
+    azendian,
   } from "../assets";
   
   export const navLinks = [
@@ -169,6 +165,17 @@ import {
         "Collaborated with a team of 13 software engineers and analysts to engineer the central communication system in ICA's 103-million-dollar Documentation Management System (iSMART).",
         "Developed and implemented responsive and functional web application, enabling ICA officers to efficiently locate and access classified documents such as Passports and Identity Cards.",
         "Build and maintain test automation system using Java scripting for continuous integration and constant quality checking."
+      ],
+    },{
+      title: "Software Engineer",
+      company_name: "Azendian Solutions",
+      icon: azendian,
+      iconBg: "#F15613",
+      date: "Mar 2023 - Present",
+      points: [
+        "Design and develop Front End modules such as user interfaces and data transformation for Smart Estate Solutions.",
+        "Collaborate with designers and back-end engineers to deliver elegant and functional modules that are visually appealing.",
+        "Transform designs and ideas into Business Intelligence Tool layout or front-end code using HTML, CSS and JavaScript."
       ],
     },
   ];
