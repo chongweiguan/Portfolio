@@ -27,10 +27,10 @@ const Hero = () => {
     <section className="relative w-full h-[800px] mx-auto">
       <div className='w-full flex justify-between'>
         <div className={"sm:py-20 py-6 px-10"}>
-          <h1 className={`${styles.heroSubText} text-white font-semibold`}>Hello, I am</h1>
-          <h1 className={`${styles.heroHeadText} text-[#87FADF] mt-2`}>Wei Guan</h1>
-          <p className={`text-white text-[16px] mt-2`}>
-            I am a Sophmore Computer Science Student from the National <br className='sm:block hidden'/>University of Singapore and I am passionate about software <br className='sm:block hidden'/>development and Artificial Intelligence
+          <h1 className={`${styles.heroSubText} text-white font-semibold py-2`}>Hello, I am</h1>
+          <h1 className={`${styles.heroHeadText} text-[#87FADF] mt-2 py-3`}>Wei Guan</h1>
+          <p className={`text-white text-[23px] mt-2`}>
+            I am a Sophmore Computer Science Student from the National University of Singapore and I am passionate about software development and Artificial Intelligence
           </p>
           <div className="mt-5 flex flex-wrap gap-7">
             {socialmedia.map((socialmedia, index) => (
