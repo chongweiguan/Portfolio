@@ -26,7 +26,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-[800px] mx-auto">
       <div className='w-full flex justify-between'>
-        <div className={"sm:py-20 py-6 px-10"}>
+        <div className={"sm:py-16 py-6 px-10"}>
           <h1 className={`${styles.heroSubText} text-white font-semibold py-2`}>Hello, I am</h1>
           <h1 className={`${styles.heroHeadText} text-[#87FADF] mt-2 py-3`}>Wei Guan</h1>
           <p className={`text-white text-[23px] mt-2`}>
