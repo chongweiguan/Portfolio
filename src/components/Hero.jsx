@@ -3,10 +3,49 @@ import { motion } from 'framer-motion';
 import { profile } from '../assets';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import { SectionWrapper } from '../hoc';
+import { socialmedia } from '../constants';
+
+const SocialMediaIcon = ({
+  id,
+  link,
+  icon
+}) => { return (
+    <div className="inset-0 flex">
+      <div
+        onClick={() => window.open(link, "_blank")}
+        className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+      >
+        <img src={icon} alt="github" className='w-10/12 object-contain'/>
+      </div>
+    </div>
+  )
+};
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto'>
+    <section className="relative w-full h-[800px] mx-auto">
+      <div className='w-full flex justify-between'>
+        <div className={"sm:py-20 py-6 px-10"}>
+          <h1 className={`${styles.heroSubText} text-white font-semibold`}>Hello, I am</h1>
+          <h1 className={`${styles.heroHeadText} text-[#87FADF] mt-2`}>Wei Guan</h1>
+          <p className={`text-white text-[16px] mt-2`}>
+            I am a Sophmore Computer Science Student from the National <br className='sm:block hidden'/>University of Singapore and I am passionate about software <br className='sm:block hidden'/>development and Artificial Intelligence
+          </p>
+          <div className="mt-5 flex flex-wrap gap-7">
+            {socialmedia.map((socialmedia, index) => (
+              <SocialMediaIcon key={socialmedia.id} index={index} {...socialmedia} />
+            ))}
+          </div>
+        </div>
+        <img 
+          src={profile}
+          //className="h-[905px] px-10 py-10 hidden"
+          className="hidden lg:flex h-[905px] px-10 py-10"
+        />
+      </div>
+    </section>
+    /*<section className='relative w-full h-screen mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[100px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#87FADF]'/>
@@ -19,7 +58,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-[#A6D5CA] flex justify-center items-start p-2'>
@@ -37,8 +75,8 @@ const Hero = () => {
           </div>
         </a>
       </div>
-    </section>
+    </section>*/
   )
 }
 
-export default Hero
+export default SectionWrapper(Hero, "home");

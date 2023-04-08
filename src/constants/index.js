@@ -27,16 +27,32 @@ import {
     python,
     express,
     azendian,
+    github,
+    linkedin,
+    instagram,
+
   } from "../assets";
   
   export const navLinks = [
+    {
+      id: "home",
+      title: "Home",
+    },
     {
       id: "about",
       title: "About",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
+    },
+    {
+      id: "projects",
+      title: "Projects",
+    },
+    {
+      id: "testimonials",
+      title: "Testimonials",
     },
     {
       id: "contact",
@@ -179,6 +195,24 @@ import {
       ],
     },
   ];
+
+  const socialmedia = [
+    {
+      id: "Linkedin",
+      link: "https://www.linkedin.com/in/chongweiguan/",
+      icon: linkedin
+    },
+    {
+      id: "Github",
+      link: "https://github.com/chongweiguan",
+      icon: github
+    },
+    {
+      id: "Instagram",
+      link: "https://www.instagram.com/chongweiguan",
+      icon: instagram
+    }
+  ]
   
   const testimonials = [
     {
@@ -340,4 +374,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, socialmedia };

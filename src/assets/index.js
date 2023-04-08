@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import linkicon from "./link-icon.png";
+import linkedin from "./linkedin.png";
+import instagram from "./instagram.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -52,6 +54,8 @@ import snapshotai from "./snapshotAI.png";
 import profile from "./profile.png";
 
 export {
+  linkedin,
+  instagram,
   azendian,
   profile,
   firebase,
