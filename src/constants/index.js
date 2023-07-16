@@ -30,6 +30,7 @@ import {
     github,
     linkedin,
     instagram,
+    secondbrain,
 
   } from "../assets";
   
@@ -247,6 +248,31 @@ import {
   
   const projects = [
     {
+      name: "Second Brain",
+      description:
+        "SecondBrain serves as a dynamic platform for seamlessly managing expenses, monitoring academic progress, and job search activities. currently in the process of refining and expanding this project.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "node",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: secondbrain,
+      source_code_link: "https://github.com/chongweiguan/SecondBrain",
+    },
+    {
       name: "Snapshot AI",
       description:
         "Snapshot AI is a web application that utilizes the OpenAI API to generate stunning, AI-generated images from user prompts. Users can also share their AI generated images with the community",
@@ -295,23 +321,6 @@ import {
       ],
       image: sociopedia,
       source_code_link: "https://github.com/chongweiguan/Sociopedia",
-    },
-    {
-      name: "Object Detection Web Application",
-      description:
-        "This simple web application detects objects that are on your camera like cellphone, water bottles, a mouse among others",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tensorflow",
-          color: "green-text-gradient",
-        },
-      ],
-      image: objectdetection,
-      source_code_link: "https://github.com/chongweiguan/Object-Detection-Web-App",
     },
     {
       name: "Wings Education",

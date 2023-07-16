@@ -47,11 +47,6 @@ const About = () => {
       >
         I am a skilled software developer who possess a diverse skill set with a focus on JavaScript, Java, and Python programming languages. I am proficient in working with frameworks like React.js, Node.js, Express.js among others. My passion lies in leveraging technology to solve complex problems and create innovative solutions that make a positive impact. In addition to my professional skills, I am also a national track and field athlete. I have proudly represented Singapore in multiple international competitions, which has honed my skills in teamwork, discipline, and leadership. I am also an entrepreneur and have a running business
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
     </>
   )
 }

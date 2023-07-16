@@ -50,10 +50,12 @@ import trackr from "./Trackr.png";
 import objectdetection from "./ObjectDetection.png";
 import sociopedia from "./Sociopedia.png";
 import snapshotai from "./snapshotAI.png";
+import secondbrain from "./SecondBrain.png";
 
 import profile from "./profile.png";
 
 export {
+  secondbrain,
   linkedin,
   instagram,
   azendian,
