@@ -30,7 +30,7 @@ const Hero = () => {
           <h1 className={`${styles.heroSubText} text-white font-semibold py-2`}>Hello, I am</h1>
           <h1 className={`${styles.heroHeadText} text-[white] mt-2 py-3`}>Wei Guan</h1>
           <p className={`text-white text-[23px] mt-2`}>
-            I am a Sophmore Computer Science Student from the National University of Singapore and I am passionate about software development and Artificial Intelligence
+            I am a Penultimate Computer Science Student from the National University of Singapore and I am passionate about software development and Artificial Intelligence
           </p>
           <div className="mt-5 flex flex-wrap gap-7">
             {socialmedia.map((socialmedia, index) => (

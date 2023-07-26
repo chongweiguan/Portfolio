@@ -183,7 +183,7 @@ import {
       company_name: "National University of Singapore",
       icon: nus,
       iconBg: "#E6DEDD",
-      date: "November 2021 - January 2023",
+      date: "January 2023 - April 2023",
       points: [
         "Had the privilege of leading weekly tutorial classes on the fascinating ‘Introduction to Operating Systems’ Module, guiding and inspiring 2 classes of 20 enthusiastic undergraduates.",
         "Crafted engaging class materials and offered personalized consultations, nurturing a deeper appreciation and mastery of the intricate Linux Operating System among the students."
