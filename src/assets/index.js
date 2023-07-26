@@ -30,6 +30,10 @@ import java from "./tech/java.png";
 import tensorflow from "./tech/tensorflow.png";
 import python from "./tech/python.png";
 import express from "./tech/express.png";
+import c from "./tech/c.png";
+import vercel from "./tech/vercel.png";
+import springboot from "./tech/springboot.png";
+import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -40,6 +44,8 @@ import eusoff from "./company/eusoff.png";
 import toppan from "./company/toppan.png";
 import virtum from "./company/virtum.png";
 import azendian from "./company/azendian.png";
+import nus from "./company/NUS.png";
+import accenture from "./company/accenture.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,6 +61,11 @@ import secondbrain from "./SecondBrain.png";
 import profile from "./profile.png";
 
 export {
+  c,
+  springboot,
+  mysql,
+  accenture,
+  nus,
   secondbrain,
   linkedin,
   instagram,

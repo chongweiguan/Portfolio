@@ -16,7 +16,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
           scale: 1,
           speed: 450,
         }}
-        className="bg-[#024B4B] p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-[#1C1C1C] p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img 
@@ -36,7 +36,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
         </div>
         <div className='mt-5'>
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <p className="mt-2 text-[grey] text-[14px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
@@ -62,7 +62,7 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p 
           variants={fadeIn("","",0.1,1)} 
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-[17px] max-w-3xl leading-[30px]"
         >
           My portfolio of projects represents a comprehensive showcase of my skills and experience, providing real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my

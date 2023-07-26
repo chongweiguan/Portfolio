@@ -17,7 +17,7 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-[#013A3A] p-10 rounded-3xl xs:w-[320px] w-full'
+    className='bg-[#151515] p-10 rounded-3xl xs:w-[320px] w-full'
   >
     <div className="relative w-full">
       <p className='text-white font-black text-[48px]'>"</p>
@@ -35,9 +35,9 @@ const FeedbackCard = ({
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>
           <p className='text-white font-medium text-[16px]'>
-            <span className='blue-text-gradient'>@</span> {name}
+            <span>@</span> {name}
           </p>
-          <p className='mt-1 text-secondary text-[12px]'>
+          <p className='mt-1 text-[white] text-[12px]'>
             {designation} at {company}
           </p>
         </div>
@@ -48,9 +48,9 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className={`mt-12 bg-[#014646] rounded-[20px]`}>
+    <div className={`mt-12 bg-[#212121] rounded-[20px]`}>
       <div
-        className={`bg-[#024B4B] rounded-2xl ${styles.padding} min-h-[300px]`}
+        className={`bg-[#191919] rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>

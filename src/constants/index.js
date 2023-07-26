@@ -1,4 +1,9 @@
 import {
+    tailwind,
+    c,
+    springboot,
+    git,
+    mysql,
     mobile,
     backend,
     creator,
@@ -31,17 +36,14 @@ import {
     linkedin,
     instagram,
     secondbrain,
-
+    nus,
+    accenture
   } from "../assets";
   
   export const navLinks = [
     {
       id: "home",
       title: "Home",
-    },
-    {
-      id: "about",
-      title: "About",
     },
     {
       id: "work",
@@ -54,10 +56,6 @@ import {
     {
       id: "testimonials",
       title: "Testimonials",
-    },
-    {
-      id: "contact",
-      title: "Contact",
     },
   ];
   
@@ -133,6 +131,26 @@ import {
       name: "Firebase",
       icon: firebase,
     },
+    {
+      name: "Tailwind",
+      icon: tailwind,
+    },
+    {
+      name: "C",
+      icon: c,
+    },
+    {
+      name: "Springboot",
+      icon: springboot,
+    },
+    {
+      name: "Git",
+      icon: git,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
   ];
   
   const experiences = [
@@ -161,38 +179,48 @@ import {
       ],
     },
     {
-      title: "Co-founder",
-      company_name: "Virtum",
-      icon: virtum,
-      iconBg: "#383E56",
-      date: "November 2021 - Present",
+      title: "CS2106 Teaching Assistant",
+      company_name: "National University of Singapore",
+      icon: nus,
+      iconBg: "#E6DEDD",
+      date: "November 2021 - January 2023",
       points: [
-        "Collaborated with a team of three friends to establish a small business venture utilizing UV printing technology to personalize PC backplates for customers.",
-        "Spearheaded business development efforts, proactively reaching out to potential partners and successfully facilitating productive discussions to explore mutually beneficial collaborations.",
-        "Acquired proficiency in Photoshop, and trained in the operation of the Artis 3000U A3+ LED UV Printer, allowing me to personalize and print on backplates."
+        "Had the privilege of leading weekly tutorial classes on the fascinating ‘Introduction to Operating Systems’ Module, guiding and inspiring 2 classes of 20 enthusiastic undergraduates.",
+        "Crafted engaging class materials and offered personalized consultations, nurturing a deeper appreciation and mastery of the intricate Linux Operating System among the students."
       ],
     },
     {
-      title: "Software Engineer",
+      title: "Software Engineer Intern",
       company_name: "Toppan Ecquaria",
       icon: toppan,
       iconBg: "#E6DEDD",
-      date: "October 2022 - January 2023",
+      date: "November 2022 - January 2023",
       points: [
         "Collaborated with a team of 13 software engineers and analysts to engineer the central communication system in ICA's 103-million-dollar Documentation Management System (iSMART).",
         "Developed and implemented responsive and functional web application, enabling ICA officers to efficiently locate and access classified documents such as Passports and Identity Cards.",
         "Build and maintain test automation system using Java scripting for continuous integration and constant quality checking."
       ],
     },{
-      title: "Software Engineer",
+      title: "Full Stack Developer Intern",
       company_name: "Azendian Solutions",
       icon: azendian,
       iconBg: "#F15613",
-      date: "Mar 2023 - Present",
+      date: "Mar 2023 - Jul 2023",
       points: [
         "Design and develop Front End modules such as user interfaces and data transformation for Smart Estate Solutions.",
         "Collaborate with designers and back-end engineers to deliver elegant and functional modules that are visually appealing.",
         "Transform designs and ideas into Business Intelligence Tool layout or front-end code using HTML, CSS and JavaScript."
+      ],
+    }, {
+      title: "Software Engineer Intern",
+      company_name: "Accenture",
+      icon: accenture,
+      iconBg: "white",
+      date: "Aug 2023 - Present",
+      points: [
+        "Enterprise application development using Java and related technologies to create robust and efficient applications.",
+        "Conduct comprehensive testing and verification of system/application functions to ensure optimal performance.",
+        "manage the packaging and deployment process of source codes, ensuring seamless and successful releases."
       ],
     },
   ];
