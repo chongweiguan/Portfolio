@@ -37,7 +37,15 @@ import {
     instagram,
     secondbrain,
     nus,
-    accenture
+    accenture,
+    bytedance,
+    vue,
+    azure,
+    cpp,
+    redis,
+    csharp,
+    typescript,
+    docker
   } from "../assets";
   
   export const navLinks = [
@@ -79,6 +87,34 @@ import {
   ];
   
   const technologies = [
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Vue",
+      icon: vue,
+    },
+    {
+      name: "Typescript",
+      icon: typescript,
+    },
+    {
+      name: "Azure",
+      icon: azure,
+    },
+    {
+      name: "Docker",
+      icon: docker,
+    },
+    {
+      name: "Redis",
+      icon: redis,
+    },
+    {
+      name: "C#",
+      icon: csharp,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -207,20 +243,30 @@ import {
       iconBg: "#F15613",
       date: "Mar 2023 - Jul 2023",
       points: [
-        "Design and develop Front End modules such as user interfaces and data transformation for Smart Estate Solutions.",
-        "Collaborate with designers and back-end engineers to deliver elegant and functional modules that are visually appealing.",
-        "Transform designs and ideas into Business Intelligence Tool layout or front-end code using HTML, CSS and JavaScript."
+        "Developed and optimized RESTful APIs for efficient data retrieval from a database, reducing data fetching time by over 50%.",
+        "Exceeded expectations by expanding the project beyond the anticipated 8 pages, actively contributing to the full stack development of over 20 schematic pages for the company’s Smart Estate Project."
       ],
     }, {
       title: "Software Engineer Intern",
       company_name: "Accenture",
       icon: accenture,
       iconBg: "white",
-      date: "Aug 2023 - Present",
+      date: "Aug 2023 - Dec 2023",
       points: [
-        "Enterprise application development using Java and related technologies to create robust and efficient applications.",
-        "Conduct comprehensive testing and verification of system/application functions to ensure optimal performance.",
-        "manage the packaging and deployment process of source codes, ensuring seamless and successful releases."
+        "Enhanced security by redesigning 30+ RESTful API endpoints, optimizing data handling by moving sensitive information from headers to encrypted request bodies, enabling secure transmission of data over the internet.",
+        "Deployed a Redis instance in a secured server using docker, this cache system resulted in a 50% decrease in data fetching time.",
+        "Utilized Azure key vault services to encrypt sensitive information and payloads, resulting in overall improvement in data security.",
+        "Spearheaded full-stack development of the OTP (One-Time Password) page within the web application."
+      ],
+    },
+    {
+      title: "Backend Engineer Intern",
+      company_name: "ByteDance",
+      icon: bytedance,
+      iconBg: "white",
+      date: "Jan 2024 - Present",
+      points: [
+        "TikTok - Machine Learning Systems Team",
       ],
     },
   ];

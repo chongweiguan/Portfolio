@@ -11,7 +11,6 @@ import linkedin from "./linkedin.png";
 import instagram from "./instagram.png";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,7 +20,6 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import firebase from "./tech/firebase.png";
 import dart from "./tech/dart.png";
@@ -34,6 +32,13 @@ import c from "./tech/c.png";
 import vercel from "./tech/vercel.png";
 import springboot from "./tech/springboot.png";
 import mysql from "./tech/mysql.png";
+import vue from "./tech/vue.png";
+import azure from "./tech/azure.png";
+import cpp from "./tech/cpp.png";
+import docker from "./tech/docker.png";
+import redis from "./tech/redis.png";
+import csharp from "./tech/csharp.png";
+import typescript from "./tech/typescript.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -46,6 +51,7 @@ import virtum from "./company/virtum.png";
 import azendian from "./company/azendian.png";
 import nus from "./company/NUS.png";
 import accenture from "./company/accenture.png";
+import bytedance from "./company/bytedance.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -61,6 +67,13 @@ import secondbrain from "./SecondBrain.png";
 import profile from "./profile.png";
 
 export {
+  vue,
+  azure,
+  cpp,
+  docker,
+  redis,
+  csharp,
+  bytedance,
   c,
   springboot,
   mysql,
@@ -97,7 +110,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
