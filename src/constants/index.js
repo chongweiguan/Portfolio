@@ -45,7 +45,9 @@ import {
     redis,
     csharp,
     typescript,
-    docker
+    docker,
+    gic,
+    reddittiktok
   } from "../assets";
   
   export const navLinks = [
@@ -264,9 +266,21 @@ import {
       company_name: "ByteDance",
       icon: bytedance,
       iconBg: "white",
-      date: "Jan 2024 - Present",
+      date: "Jan 2024 - Jun 2024",
       points: [
-        "TikTok - Machine Learning Systems Team",
+        "Developed a robust microservice using Flask, Kafka and ByteDance cloud services, enabling teams across ByteDance to synchronize over 1,000 machine learning models across US and Europe regions.",
+        "Developed Python scripts to migrate over 10,000 machine learning models and 50,000 corresponding versions from the USA Hadoop Distributed File System (HDFS) node to the Singapore HDFS node.",
+        "Created specialised approval processes for 5 distinct teams utilizing my team’s machine learning deployment platform."
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "GIC",
+      icon: gic,
+      iconBg: "#000066",
+      date: "Jan 2024 - Jun 2024",
+      points: [
+        "Investment Services Public Markets Team",
       ],
     },
   ];
@@ -291,13 +305,12 @@ import {
   
   const testimonials = [
     {
-      testimonial:
-        "Demonstrates a selfless and generous attitude, always willing to lend a helping hand and take on a high workload when required.",
-      name: "Jessica Lin",
-      designation: "Manager",
-      company: "Toppan Ecquaria",
+      testimonial: "His commitment to his work and his ability to collaborate effectively with team members made him a standout contributor.",
+      name: "Deyu Huang",
+      designation: "Software Engineer",
+      company: "ByteDance",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
-      link: "https://drive.google.com/file/d/157LBlB-nspHjl1SAnjjlwQrIRXQve9T7/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1IMDHhw019lAkkK639H3_onQ-BMqFCYgF/view?usp=sharing"
     },
     {
       testimonial:
@@ -321,6 +334,23 @@ import {
   ];
   
   const projects = [
+    {
+      name: "RedditTikTok",
+      description:
+        "RedditTikTok is a tool for creating viral videos with ease. Users can choose to retrieve a random post from Reddit or input their own story. The bot utilizes the Google Text-to-Speech API to convert text into speech and generate precise word timestamps.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "google-text-to-speech",
+          color: "green-text-gradient",
+        },
+      ],
+      image: reddittiktok,
+      source_code_link: "https://github.com/chongweiguan/RedditTikTok",
+    },
     {
       name: "Second Brain",
       description:
@@ -437,23 +467,6 @@ import {
       ],
       image: ezorder,
       source_code_link: "https://github.com/chongweiguan/EzOrder-Bot",
-    },
-    {
-      name: "Trackr",
-      description:
-        "Trackr is a desktop application designed for small business ownders that helps them manage supplier contact details, orders and tasks.",
-      tags: [
-        {
-          name: "java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javafx",
-          color: "green-text-gradient",
-        },
-      ],
-      image: trackr,
-      source_code_link: "https://github.com/chongweiguan/tp",
     },
   ];
   

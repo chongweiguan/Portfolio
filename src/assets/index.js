@@ -52,6 +52,7 @@ import azendian from "./company/azendian.png";
 import nus from "./company/NUS.png";
 import accenture from "./company/accenture.png";
 import bytedance from "./company/bytedance.png";
+import gic from "./company/gic1.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -63,10 +64,13 @@ import objectdetection from "./ObjectDetection.png";
 import sociopedia from "./Sociopedia.png";
 import snapshotai from "./snapshotAI.png";
 import secondbrain from "./SecondBrain.png";
+import reddittiktok from "./reddittiktok.png";
 
 import profile from "./profile.png";
 
 export {
+  reddittiktok,
+  gic,
   vue,
   azure,
   cpp,
