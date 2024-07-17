@@ -329,7 +329,7 @@ import {
       designation: "Sprints Coach",
       company: "Wings Athletics",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
-      link: "https://drive.google.com/file/d/114o7yw_vxkNAWYx0QSJXAqgFAM5JsKTd/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1ZpoRy5FVYjNtqaSTyzNnay3qBIUGPNk0/view?usp=sharing"
     },
   ];
   
